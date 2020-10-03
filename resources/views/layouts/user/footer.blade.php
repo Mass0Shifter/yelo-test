@@ -2,7 +2,7 @@
 <div class="container">
 
 <div class="pull-left">
-<p>&copy; 2017 - <a href="{{Setting::get('copyrights_url') ? Setting::get('copyrights_url') : url('/')}}">{{Setting::get('site_name' , 'StreamHash')}} </a></p>
+<p>&copy; 2020 - <a href="{{Setting::get('copyrights_url') ? Setting::get('copyrights_url') : url('/')}}">{{Setting::get('site_name' , 'StreamHash')}} </a></p>
 
 </div>
 
