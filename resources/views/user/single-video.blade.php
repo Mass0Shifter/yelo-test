@@ -329,10 +329,13 @@
 @endsection
 
 @section('scripts')
-
+{{-- 
     <script src="{{asset('jwplayer/jwplayer.js')}}"></script>
+    
+    <script>jwplayer.key="{{Setting::get('JWPLAYER_KEY')}}";</script> --}}
+    
+    <script src="https://cdn.jwplayer.com/libraries/hMCcIiqr.js"></script>
 
-    <script>jwplayer.key="{{Setting::get('JWPLAYER_KEY')}}";</script>
 
     <script type="text/javascript">
         
