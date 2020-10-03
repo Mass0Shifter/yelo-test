@@ -18,10 +18,10 @@
 
 </head>
 <body>
-    @if($errors->any())
+    {{-- @if($errors->any())
     {{ implode('', $errors->all('<div>:message</div>')) }}
     @endif
-    
+     --}}
 <div class="off-canvas-wrapper">
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
