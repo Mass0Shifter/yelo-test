@@ -39,10 +39,5 @@
         </form>                
         <p class="help"><a href="{{route('user.register.form')}}">{{tr('new_account')}}</a></p>
         <p class="help"><a href="{{ url('/password/reset') }}">{{tr('forgot_password')}}</a></p>
-    </div>
-
-    @if($errors->any())
-    {{ implode('', $errors->all('<div>:message</div>')) }}
-    @endif
-    
+    </div>  
 @endsection
