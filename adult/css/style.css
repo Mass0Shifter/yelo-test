@@ -318,15 +318,6 @@ a.fb-share:hover,a.fb-share:focus,a.fb-share:active{
 	border-radius: 2px;
 	font-size: 12px;
 }
-.command-box .btn {
-    padding: 5px 10px;
-    font-size: 12px;
-    border-radius: 3px;
-    border: 0;
-    background-color: #cb0000;
-    color: #fff;
-    margin-bottom: 10px;
-}
 
 .show-comments-text {
     color:#fff;text-align: center;	
@@ -407,10 +398,6 @@ a.fb-share:hover,a.fb-share:focus,a.fb-share:active{
     border-radius: 2px;
     left: 10px
 }
-.remove-btn:hover,.remove-btn:active,.remove-btn:focus{
-	background-color: #000;
-	color: #cb0000;
-}
 .fb-btn{
 	background-color: #3b5998;
     padding: 10px;
@@ -461,29 +448,6 @@ a.fb-share:hover,a.fb-share:focus,a.fb-share:active{
 .profile h5{
 	font-weight: bold;
     font-size: 16px;
-}
-.edit-pro{
-    padding: 5px 10px;
-    font-size: 12px;
-    border-radius: 3px;
-    border: 0;
-    background-color: #cb0000;
-    color: #fff!important;
-    display: block;
-    text-align: center;
-    margin:0 auto;
-    margin-bottom: 15px;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 15px;
-    text-decoration: none;
-
-}
-
-.edit-pro:hover,.edit-pro:active,.edit-pro:focus {
-    background-color: #a00a0a;
-    color: #fff!important;
-    text-decoration: none;
 }
 .payment-pro{
 	padding: 5px 10px;
@@ -744,18 +708,6 @@ animation-direction: alternate;
 .pagination > .active > span:hover,.pagination > .active > span {
     background: #9c0303;
     border-color: #9c0303;
-}
-
-.see-all {
-    float: right;
-    text-decoration: none;
-    display: block;
-    padding: 4px 10px;
-    background: #cc181e;
-    color: white;
-    border-radius: 2px;
-    text-decoration: none;
-    margin-right: 20px;
 }
 
 .see-all:hover,.see-all:active,.see-all:focus {

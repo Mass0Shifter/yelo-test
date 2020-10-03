@@ -152,3 +152,50 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.command-box .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #e4b71e;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.remove-btn:hover,.remove-btn:active,.remove-btn:focus{
+	background-color: #000;
+	color: #e4b71e;
+}
+.edit-pro{
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #e4b71e;
+    color: #fff!important;
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 15px;
+    text-decoration: none;
+
+}
+.edit-pro:hover,.edit-pro:active,.edit-pro:focus {
+    background-color: #f1d325;
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.see-all {
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 4px 10px;
+    background: #e4b71e;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-right: 20px;
+}
