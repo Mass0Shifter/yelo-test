@@ -124,7 +124,7 @@
                 </div>
 
                 <div class="btns">
-
+{{-- 
                     @if(Auth::check())
 
                         <form name="add_to_wishlist" method="post" id="add_to_wishlist" action="{{route('user.add.wishlist')}}">
@@ -148,7 +148,7 @@
 
                             @endif
                         </form>
-                    @else
+                    @else --}}
                         <button type="button" class="add" data-toggle="modal" data-target="#AddWishList">+ {{tr('add_to')}} {{tr('wishlist')}}<i class="fa fa-heart"></i></button>
 
                         <div class="modal fade cus-mod" id="AddWishList" role="dialog">
@@ -170,7 +170,7 @@
                               
                             </div>
                         </div>
-                    @endif
+                    {{-- @endif --}}
 
                     <a href="http://www.facebook.com/sharer.php?u={{route('user.single',$video->admin_video_id)}}" target="_blank"  class="fb-share">{{tr('share_on_fb')}}</a>  
                     <a href="http://twitter.com/share?text={{$video->title}}...&url={{route('user.single',$video->admin_video_id)}}" target="_blank" class="gp-share">{{tr('share_on_twitter')}}</a>
