@@ -41,4 +41,8 @@
         <p class="help"><a href="{{ url('/password/reset') }}">{{tr('forgot_password')}}</a></p>
     </div>
 
+    @if($errors->any())
+    {{ implode('', $errors->all('<div>:message</div>')) }}
+    @endif
+    
 @endsection
