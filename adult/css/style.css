@@ -63,22 +63,6 @@
     color: #fff;
     box-shadow: none!important
 }
-
-.navbar-form .btn{
-	padding: 5px 10px;
-    border-radius: 0;
-    margin-left: -3px;
-    border: 0;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    background-color: #cb0000;
-    color: #fff;
-}
-
-.navbar-form .btn:hover,.navbar-form .btn:focus,.navbar-form .btn:active{
-	background-color: #9c0303;
-	outline: none;
-}
 .navbar-form.navbar-right{
 	margin-top: 10px;
     margin-bottom: 10px;

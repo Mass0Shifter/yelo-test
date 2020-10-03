@@ -86,3 +86,23 @@ body {
 .login-box .help a{
 	color: #eee;
 }
+
+
+/* button Styles */
+
+
+.navbar-form .btn{
+	padding: 5px 10px;
+    border-radius: 0;
+    margin-left: -3px;
+    border: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #e4b71e;
+    color: #fff;
+}
+
+.navbar-form .btn:hover,.navbar-form .btn:focus,.navbar-form .btn:active{
+	background-color: #f1d325;
+	outline: none;
+}
