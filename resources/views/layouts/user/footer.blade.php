@@ -5,7 +5,7 @@
 
     <div class="d-flex flex-column">
       <a href="#"><p>FAQ</p></a>
-      <a href="https://yelofim.com/corporate-page.html"><p>Investor Relations</p></a>
+      <a href="http://yelofim.com/corporate-page.html"><p>Investor Relations</p></a>
       <a href="#"><p>Privacy</p></a>
       <a href="#"><p>Speed Test</p></a>
     </div>
@@ -20,14 +20,14 @@
     <div class="d-flex flex-column">
       <a href="watch.yelofim.com/profile"><p>Account</p></a>
       <a href="#"><p>Ways to Watch</p></a>
-      <a href="https://yelofim.com/corporate-page.html"><p>Corporate Information</p></a>
-      <a href="https://yelofim.com/about.html"><p>About Us</p></a>
+      <a href="http://yelofim.com/corporate-page.html"><p>Corporate Information</p></a>
+      <a href="http://yelofim.com/about.html"><p>About Us</p></a>
     </div>
     
     <div class="d-flex flex-column">
       <a href="#"><p>Media Center</p></a>
       <a href="#"><p>Terms of Use</p></a>
-      <a href="https://yelofim.com/contact.html"><p>Contact Us</p></a>
+      <a href="http://yelofim.com/contact.html"><p>Contact Us</p></a>
       <a href="#"><p>Our Team</p></a>
     </div>
     
