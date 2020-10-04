@@ -229,3 +229,39 @@ body {
     font-size: 14.3px;
     color: #b4b4b4;
   }
+  .d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .flex-column {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  .justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }  
+  .justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+  .align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  .text-secondary {
+    color: #6c757d !important;
+  }
+  a.text-secondary:hover, a.text-secondary:focus {
+    color: #494f54 !important;
+  }
+  .sidebar .video-full-box .video-box {
+    width: 100% !important;
+    height: auto !important;
+}
+.cat-side-box-cont a {
+    width: 100% !important; 
+    text-align: center !important;
+    font-weight: 600 !important;
+    font-size: medium !important;
+}
