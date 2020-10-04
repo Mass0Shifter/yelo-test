@@ -130,8 +130,7 @@
                         <form name="add_to_wishlist" method="post" id="add_to_wishlist" action="{{route('user.add.wishlist')}}">
                             
                             <input type="hidden" value="{{$video->admin_video_id}}" name="admin_video_id">
-                            {{count($wishlist_status)}}
-                            {{-- @if($wishlist_status == 1)
+                            @if($wishlist_status == 1)
                                 
                                 <input type="hidden" id="status" value="0" name="status">
                                 
@@ -146,7 +145,7 @@
 
                                 <button type="submit" id="added_wishlist" class="add">+ {{tr('add_to')}} {{tr('wishlist')}}</button>
 
-                            @endif --}}
+                            @endif
                         </form>
                     @else
                         <button type="button" class="add" data-toggle="modal" data-target="#AddWishList">+ {{tr('add_to')}} {{tr('wishlist')}}<i class="fa fa-heart"></i></button>
