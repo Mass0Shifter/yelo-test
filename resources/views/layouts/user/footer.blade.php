@@ -1,10 +1,9 @@
 <div class="row footer">
 <div class="container">
 
-<div class="pull-left">
+{{-- <div class="pull-left">
 <p>&copy; 2020 - <a href="{{Setting::get('copyrights_url') ? Setting::get('copyrights_url') : url('/')}}">{{Setting::get('site_name' , 'StreamHash')}} </a></p>
-
-</div>
+</div> --}}
 
 <!-- footer area -->
 <div class="container-fluid footer-area d-flex justify-content-center align-items-center">
