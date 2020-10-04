@@ -131,22 +131,22 @@
                             
                             <input type="hidden" value="{{$video->admin_video_id}}" name="admin_video_id">
                             
-                            {{-- @if(count($wishlist_status) == 1)
+                            @if(count($wishlist_status) == 1)
                                 
-                                <input type="hidden" id="status" value="0" name="status">
+                                {{-- <input type="hidden" id="status" value="0" name="status">
                                 
                                 <input type="hidden" id="wishlist_id" value="{{$wishlist_status->id}}" name="wishlist_id">
                                 
-                                <button class="add" type="submit" id="added_wishlist" style="color:#DDD;background-color:#cb0000">{{tr('added')}}</button>
+                                <button class="add" type="submit" id="added_wishlist" style="color:#DDD;background-color:#cb0000">{{tr('added')}}</button> --}}
                             @else
 
-                                <input type="hidden" id="status" value="1" name="status">
+                                {{-- <input type="hidden" id="status" value="1" name="status">
                                 
                                 <input type="hidden" id="wishlist_id" value="" name="wishlist_id">
 
-                                <button type="submit" id="added_wishlist" class="add">+ {{tr('add_to')}} {{tr('wishlist')}}</button>
+                                <button type="submit" id="added_wishlist" class="add">+ {{tr('add_to')}} {{tr('wishlist')}}</button> --}}
 
-                            @endif --}}
+                            @endif
                         </form>
                     @else
                         <button type="button" class="add" data-toggle="modal" data-target="#AddWishList">+ {{tr('add_to')}} {{tr('wishlist')}}<i class="fa fa-heart"></i></button>
