@@ -1,5 +1,5 @@
 <!-- footer area -->
-<div class="container-fluid footer-area row text-center d-flex justify-content-center align-items-center flex-column">
+<div class="container-fluid footer-area row d-flex justify-content-center align-items-center flex-column">
 
   <div class="container d-flex justify-content-between text-secondary" style="width: 100%">
 
