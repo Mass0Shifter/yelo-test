@@ -1,7 +1,7 @@
 <!-- footer area -->
-<div style="color: black">
-  <div class="container-fluid footer-area d-flex justify-content-center align-items-center row footer">
+<div class="container-fluid footer-area row text-center">
 
+  <div class="d-flex justify-content-center align-items-center">
     <div class="container d-flex justify-content-between text-secondary">
 
       <div class="d-flex flex-column">
@@ -33,12 +33,11 @@
       </div>
       
     </div>
-
-    
   </div>
   <p>&copy; 2020 - <a href="{{Setting::get('copyrights_url') ? Setting::get('copyrights_url') : url('/')}}" style="color: #f1d325"> {{Setting::get('site_name' , 'StreamHash')}} </a></p>
 </div>
-<!-- footer area ends here -->
+
+  <!-- footer area ends here -->
 {{-- 
 <div class="row footer">
 <div class="container">
