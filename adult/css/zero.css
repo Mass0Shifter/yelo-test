@@ -7,7 +7,7 @@
 }
 
 body {
-    font: 12px / 1.2 Exo, Roboto, Arial, Helvetica, sans-serif;
+    font: 14px  Exo, Roboto, Arial, Helvetica, sans-serif;
     color: #fff;
     background-image: url(../../images/BG.jpg);
     /* background: #e4b71e; */
@@ -223,11 +223,11 @@ body {
   .footer-area a{
     text-decoration: none;
     color: #575757;
-    font-size: 14px;
+    font-size: 16px;
   }
   .footer-area a:hover{
-    font-size: 14.3px;
-    color: #b4b4b4;
+    /* font-size: 14.3px; */
+    color: white;
   }
   .d-flex {
     display: -ms-flexbox !important;
