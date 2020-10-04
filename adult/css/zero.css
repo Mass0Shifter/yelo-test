@@ -215,3 +215,17 @@ body {
     /*max-width: 300px;*/
     margin-top: 15px;
 }
+
+.footer-area{
+    height: 50vh;
+    background-color: black;
+  }
+  .footer-area a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 14px;
+  }
+  .footer-area a:hover{
+    font-size: 14.3px;
+    color: #b4b4b4;
+  }

@@ -6,8 +6,46 @@
 
 </div>
 
-<div class="pull-right">
-<?php $pages = pages();?>
+<!-- footer area -->
+<div class="container-fluid footer-area d-flex justify-content-center align-items-center">
+
+    <div class="container d-flex justify-content-between text-secondary">
+
+      <div class="footer-section-one d-flex flex-column">
+        <a href="#"><p>FAQ</p></a>
+        <a href="yelofim.com/corporate-page.html"><p>Investor Relations</p></a>
+        <a href="#"><p>Privacy</p></a>
+        <a href="#"><p>Speed Test</p></a>
+      </div>
+
+      <div class="footer-section-two d-flex flex-column">
+        <a href="#"><p>Help Center</p></a>
+        <a href="#"><p>Jobs</p></a>
+        <a href="#"><p>Cookie</p></a>
+        <a href="#"><p>Legal Notices</p></a>
+      </div>
+
+      <div class="footer-section-three d-flex flex-column">
+        <a href="watch.yelofim.com/profile"><p>Account</p></a>
+        <a href="#"><p>Ways to Watch</p></a>
+        <a href="yelofim.com/corporate-page.html"><p>Corporate Information</p></a>
+        <a href="yelofim.com/about.html"><p>About Us</p></a>
+      </div>
+
+      <div class="footer-section-four d-flex flex-column">
+        <a href="#"><p>Media Center</p></a>
+        <a href="#"><p>Terms of Use</p></a>
+        <a href="yelofim.com/contact.html"><p>Contact Us</p></a>
+        <a href="#"><p>Our Team</p></a>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- footer area ends here -->
+
+{{-- <div class="pull-right">
+<?php//$pages = pages();?>
 
 @if(count($pages) > 0)
 <ul>
@@ -18,7 +56,7 @@
 </ul>
 @endif
 
-</div>
+</div> --}}
 
 <div class="clearfix"></div>
 </div>
